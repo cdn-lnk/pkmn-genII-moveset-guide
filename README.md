@@ -1,5 +1,6 @@
-# Moveset guide for pokémon gen II
-For latest version see https://github.com/cdn-lnk/pkmn-genII-moveset-guide
+# Moveset notes for pokémon gen II
+This is a work in progress.
+For the latest version see https://github.com/cdn-lnk/pkmn-genII-moveset-guide
 
 ## Stats
 
@@ -176,7 +177,7 @@ stage|multiplier|ideal turns (x-attack & x-special)|ideal turns (swords dance)|b
 
 * __Scenario 2, lowering enemy's defense__: Always worse than raising your attack since: 1) you need one extra turn for a can't escape move and 2) you need to re-setup for each pokémon the opponent sends.
   * The only advantage I can see is that there is no min stat cap, so (e.g.) mewtwo is stronger against one opponent with minimun special defense than it is with maximum special attack (due to the 999 cap). Not realistic though.
-  * This means you need to hit the same pokémon 13+ times and +5 turns of preparation this means 18 turns agains the same pokémon!!!! << What I wrote here?
+  * This means you need to hit the same pokémon 13+ times and +5 turns of preparation this means 18 turns against the same pokémon!!!! << What I wrote here?
 
 stage|multiplier|leer, tail whip|screech
 -|-|-|-
@@ -289,7 +290,7 @@ More individual values are better except when a favorable type in hidden power i
 
 * __Night shade and seismic toss__
 
-* __Rage is good agains multi hit__
+* __Rage is good against multi hit__
 
 Each hit builds rage
 
@@ -307,7 +308,7 @@ Combos are multi turns and inherit all its disadvantages. Additionally remember 
 
 People just do it, like using rain dance and sunny day in one pokémon or same party, or trying to combo mean look with spikes.
 
-They just do. But not you.
+They do it. But not you.
 
 Avoid:
 * Spikes + mean look
@@ -326,3 +327,6 @@ $$damage = 2 + \frac{attack}{defense} \times \frac{power}{25} \times \left( 1 + 
 * __Test__
 
 $$hp = damage$$
+
+* __HM slaves__: are pokemons available relatively early game which are only there to use HMs for exploration. See https://pokemondb.net/gold-silver/hms
+Personal recommendation: hoot-hoot (fly, flash), poliwag (surf, waterfall and whirlpool) and sandshrew (cut, rock smash, strenght). You may also consider headbutt
