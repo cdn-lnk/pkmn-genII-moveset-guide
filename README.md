@@ -328,5 +328,5 @@ $$damage = 2 + \frac{attack}{defense} \times \frac{power}{25} \times \left( 1 + 
 
 $$hp = damage$$
 
-* __HM slaves__: are pokemons available relatively early game which are only there to use HMs for exploration. See https://pokemondb.net/gold-silver/hms
+* __HM slaves__: are pokemons common, easy to catch and available relatively early game which are only there to use HMs for exploration. See https://pokemondb.net/gold-silver/hms
 Personal recommendation: hoot-hoot (fly, flash), poliwag (surf, waterfall and whirlpool) and sandshrew (cut, rock smash, strenght). You may also consider headbutt
