@@ -99,7 +99,7 @@ poison|0%
     * __Better use potions than have heal moves__, thus use recoil with high def + potions.
 
 * __Flinch increases damage by probablility__: and does not stack with kings rock.
-  * Flinch is usually better than critical because it is the same result for the price of 1 extra pp, usually higher chance than crit, you can choose next action and you dont take damage.
+  * Flinch is usually better than critical because: a) it is the same result for the price of 1 extra pp, b) usually higher chance than crit, c) you can choose next action and d) you dont take damage (this last one os false, think about it).
     * But the opponent also has time to react which is not possible with crits.
 
 * __Save TMs for later__: If you can get stronger by other means, like leveling up or using items, save your TM for later (exception are buyable TMs).
