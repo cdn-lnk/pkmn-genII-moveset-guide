@@ -1,33 +1,33 @@
 # Moveset notes for pokémon gen II
-This is a work in progress.
-For the latest version see https://github.com/cdn-lnk/pkmn-genII-moveset-guide
+
+This is a work in progress,
+for the latest version see https://github.com/cdn-lnk/pkmn-genII-moveset-guide
 
 ## Stats
 
-* __Start with base stats__: A level 100 shuckle with max individual and effort values has 118 special attack while an abra with zero individual and effort values has the same 118 special attack at level 54.
+* __Start considering base stats__, a level 100 shuckle with max individual and effort values has 118 special attack while an abra with zero individual and effort values has the same 118 special attack at level 54.
 
-* __Think in terms of effective stats__: A pokémon with 200 attack using a move with power of 25 has equivalent damage to a pokémon with 100 attack using a move with power of 50. Similarly, 200 hp pokémon with 100 defense is roughly the same as 100 hp pokémon with 200 defense.
+* __Think in terms of effective stats__, a pokémon with 200 attack using a move with power of 25 has equivalent damage to a pokémon with 100 attack using a move with power of 50. Similarly, 200 hp pokémon with 100 defense is roughly the same as 100 hp pokémon with 200 defense. A good approximation is:
 
-#fixme:
-$$\text{effective attack} = power \times attack$$
+$$\text{effective attack} \approx power \times attack$$
+
 $$\text{effective defense} \approx hp \times defense$$
 
-* __Focus on special OR physical attack, not both__: Select moves that fit whichever is higher.
+* __Focus on special OR physical attack, not both__, choose moves that fit whichever is higher.
   * What if your physical attack is higher than you special attack, and following this advice you only learn physical moves, what happens when your opponent uses a pokémon with very high physical defense but very low special defense? You change to a pokémon with high special attack.
 
-* __HP is better than defense__: Sometimes it is hard to predict what moves your opponent has, since hp doesn't split in special and physical it is preferable over defense.
-  * Note that there are types that only have physical (or special) weaknesses, this gives them an preference for a certain type of defense.
+* __HP is better than defense__, it may be hard to predict what moves your opponent has, since hp doesn't split in special and physical it is preferable over defense.
 
-* __Know your role. Sweeper__: Combines high speed with high effective attack. Usually fragile and dependant on type advantage and STAB. Powerfull moves are preferable over moves with many power points.
+## Role
+
+* __Know your role!__ Choose a role that match the pokemon status.
+
+* __Sweeper__: combines high speed with high effective attack. Usually fragile and dependant on type advantage and STAB. Powerfull moves are preferable over moves with many power points.
   * They don't tend to survive the rounds needed to do proper stage buffs (e.g.: belly drum) themselves, but they are great combos with batton pass if someone else can setup the stats for them.
 
-* __Know your role. Wall__:
+* __Wall__: combines high speed and effective defense. Leads to longer battles, great holders of utility moves and baton pass since have plenty of a time to setup.
 
-Combines high speed and effective defense. Leads to longer battles, great holders of utility moves and baton pass since have plenty of a time to setup.
-
-* __Know your role. Tank__:
-
-Combines, high effective attack and effective defense, tends to longer battles.
+* __Tank__: combines, high effective attack and effective defense, tends to longer battles.
 
 * __Choose moves based on roles__: A sweeper with no strong moves or a wall without utilities are bad strategies.
 
@@ -36,9 +36,8 @@ Combines, high effective attack and effective defense, tends to longer battles.
 ## Types
 
 * __Pokémon are weak against moves, not aginst other pokémon__: A gyarados without water moves is a smaller threat to a typhlosion than a pikachu that knows surf.
-  * __STAB is OP though__, so if you are weak against water moves, water pokémon make it even more threatening.
 
-* __Consider types and stats together, attack__: Types are divided in two categories: physical and special. Due to STAB physical types benefit more from physical attacks while special types benefit more from special attacks.
+* __STAB is OP!__ Types are divided in two categories: physical and special. Due to STAB physical types benefit more from physical attacks while special types benefit more from special attacks.
   * This means that a a water pokémon which has physical attack greater than special attack will never reach the move full potential, in other words, it should be considered more for its defensive capabilities.
 
 __physical__|__special__
@@ -53,7 +52,7 @@ poison|psychic
 rock|water
 steel
 
-* __Consider types and stats together, defense__: From a defensive standpoint dark, electric and normal benefict more from physical defense while dragon, ground and water more from special defense. This is because their weaknesses are all physical and special respectively.
+* __Some types only have physical (or special) weaknesses__, this gives them an preference for a certain type of defense: dark, electric and normal benefict more from physical defense while dragon, ground and water more from special defense.
 
 * __Avoid redundancy__: Learning ember, fire blast, flamethrower and flame wheel all at the same time isn't the best idea.
 
@@ -61,12 +60,12 @@ steel
 
 ## Moves
 
-* __Power is important! But so are power points, turns and accuracy__
+* __Power is important, but so are power points, turns and accuracy__
 
 #fixme:
 $$potential = \frac{points \times power \times accuracy}{turns}$$
 
-* __Pokémon that lasts longer needs more power points__: A chansey with blizzard, fire blast, zap cannon and hyper beam will, may run out of power points.
+* __Pokémon that lasts longer needs more power points__, a snorlax with blizzard, zap cannon, hyper beam and rest may run out of power points.
 
 * __Status ailments priorities__: Since only one can be inflicted at a time, save it for the better ones.
 The priority usually is strong sleep, frozen, weak sleep, paralysis, burn and poison.
@@ -103,9 +102,32 @@ poison|0%
 
 * __Save TMs for later__: If you can get stronger by other means, like leveling up or using items, save your TM for later (exception are buyable TMs).
 
+## The power of money
+
+* __If you can get the effect with items, do it__
+
+Example #1: A cloyster that knows withdraw versus a cloyster that doesn't know withdraw but trainer uses x defense. In both cases cloysters ends with +1 defense stage after one turn, however the latter has one extra slot for learning another move.
+
+Example #2: King's rock provides flinch.
+  * Fixme: Is it better to have a powerful move with king's rock or have low kick plus black belt? #todo: math
+
+Example #3: Potions vs rest.
+
+Item|Replaceable moves
+-|-
+guard spec|mist
+miracle berry(rare as f***)|safeguard(kinf of)
+quick claw**|quick attack, extreme speed(kind of)
+king's rock|flinch
+
+Still slower than extreme speed and quick attack
+X special raises both special attack and special defense.
+X Accuracy completly ignores checks.
+
 ## Multi turn (not to be confused with muti hit)
 
-* __Multi turn is bad__: Suppose your dugtrio uses dig. The opponent knows what happens next and has one turn to plan for it. He could change for a gyarados which has immunity against dig and water moves against dugtrio. The more turns you need to accomplish something the more predictable and counterable (by switching for example) you are.
+* __Multi turn is usually bad__: Suppose your dugtrio uses dig. The opponent knows what happens next and has one turn to plan for it. He could change for a gyarados which has immunity against dig and water moves against dugtrio. The more turns you need to accomplish something the more predictable and counterable (by switching for example) you are.
+  * #fixme what about lose pp?
 
 * __Burst is best than over time__: Suppose your charizard can knockout the opponent by using flamethrower once or by using thunder punch twice. Choosing thunder punch gives the opponent the chance to switch and save that pokémon for later, or even heal it.
 
@@ -236,23 +258,6 @@ Leftover is considered the best item, except if you expect your pokémon to die 
 
 Other good items are: quick claw, bright powder, scope lens(?), focus band and king's rock.
 
-* __If you can get the effect with items, do it__
-
-Example #1: A cloyster that knows withdraw versus a cloyster that doesn't know withdraw and trainer uses x defense. In both cases cloysters ends with +1 defense stage after one turn, however the latter has one extra slot for learning another move.
-
-Example #2: King's rock provides flinch. Is it better to have a powerful move with king's rock or have low kick plus black belt? #todo: math
-
-Item|Replaceable moves
--|-
-guard spec|mist
-miracle berry(rare as f***)|safeguard(kinf of)
-quick claw**|quick attack, extreme speed(kind of)
-king's rock|flinch
-
-Still slower than extreme speed and quick attack
-X special raises both special attack and special defense.
-X Accuracy completly ignores checks.
-
 * __Miracle berry for the win__
 
 Why cure only one status ailment if you can cure all of them?
@@ -295,9 +300,11 @@ More individual values are better except when a favorable type in hidden power i
 Each hit builds rage
 
 ## Combos
+
 * __Beware of fake combos__
 On average dynamic punch hits once every two turns, while the combo mind reader followed by dynamic punch guarantees to hit once every two turns. Not that great, especially considering that you are using an extra move slot and are more predictable; mind reader hints the opponent that something is coming.
-* Mind reader + dynamic punch
+* Mind reader + dynamic punch (just try dynamic punch twice)
+* Sunny day + synthesis, morning sun or moonlight (just use a poyion instead)
 
 * __List of combos__
 
@@ -461,8 +468,8 @@ Personal recommendation: hoot-hoot (fly, flash), poliwag (surf, waterfall and wh
 - [ ] Mirror Coat
 - [ ] Mirror Move
 - [ ] Mist
-- [ ] Moonlight
-- [ ] Morning Sun
+- [x] Moonlight
+- [x] Morning Sun
 - [ ] Mud Slap
 - [ ] Night Shade
 - [ ] Nightmare
@@ -493,7 +500,7 @@ Personal recommendation: hoot-hoot (fly, flash), poliwag (surf, waterfall and wh
 - [ ] Razor Wind
 - [ ] Recover
 - [ ] Reflect
-- [ ] Rest
+- [x] Rest
 - [ ] Return
 - [ ] Reversal
 - [ ] Roar
@@ -553,7 +560,7 @@ Personal recommendation: hoot-hoot (fly, flash), poliwag (surf, waterfall and wh
 - [ ] Sweet Scent
 - [ ] Swift
 - [ ] Swords Dance
-- [ ] Synthesis
+- [x] Synthesis
 - [ ] Tackle
 - [ ] Tail Whip
 - [ ] Take Down
@@ -579,6 +586,6 @@ Personal recommendation: hoot-hoot (fly, flash), poliwag (surf, waterfall and wh
 - [ ] Whirlpool
 - [ ] Whirlwind
 - [ ] Wing Attack
-- [ ] Withdraw
+- [x] Withdraw
 - [ ] Wrap
 - [ ] Zap Cannon
