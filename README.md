@@ -94,9 +94,9 @@ burn|50%
 badly poison|0%
 poison|0%
 
-* __Heal is only advantegeous if you have high defense__: If you die in one hit it doesnt matter if you heal.
-
-* __Recoil only with heal__: thus recoil indirectly needs high defense.
+* __Heal is only advantegeous if you have high eff. defense__: If you die in one hit it doesnt matter if you heal.
+  * __Recoil only with heal__: thus recoil indirectly needs high defense.
+    * __Better use potions than have heal moves__, thus use recoil with high def + potions.
 
 * __Flinch increases damage by probablility__: and does not stack with kings rock.
 
