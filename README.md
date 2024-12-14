@@ -1,255 +1,3 @@
-# List
-
-- [ ] Absorb
-- [ ] Acid
-- [ ] Acid Armor +2
-- [ ] Aeroblast
-- [ ] Amnesia +2
-- [ ] Ancientpower
-- [ ] Attract
-- [ ] Aurora Beam
-- [ ] Barrage
-- [ ] Barrier +2
-- [ ] Baton Pass
-- [ ] Beat Up
-- [ ] Belly Drum +6
-- [ ] Bide
-- [ ] Bind
-- [ ] Bite
-- [ ] Blizzard
-- [ ] Body Slam
-- [ ] Bone Club
-- [ ] Bone Rush
-- [ ] Bonemerang
-- [ ] Bubble
-- [ ] Bubblebeam
-- [x] Charm -2
-- [ ] Clamp
-- [ ] Comet Chop
-- [ ] Comet Punch
-- [ ] Confuse Ray
-- [ ] Constrict
-- [ ] Conversion
-- [ ] Conversion 2
-- [ ] Cotton Spore
-- [ ] Counter
-- [ ] Crabhammer
-- [ ] Cross Chop
-- [ ] Crunch
-- [ ] Curse
-- [ ] Cut
-- [ ] Defend
-- [x] ~Defense Curl~ +1 (except rollout combo)
-- [ ] Destiny Bond
-- [ ] Detect
-- [ ] Dig
-- [ ] Disable
-- [ ] Dizzy Punch
-- [ ] Double Edge
-- [ ] Double Kick
-- [ ] Double Slap
-- [ ] Double Team
-- [ ] Dragon Rage
-- [ ] DragonBreath
-- [ ] Dream Eater
-- [ ] Drill Peck
-- [ ] Dynamic Punch
-- [ ] Earthquake
-- [ ] Egg Bomb
-- [ ] Ember
-- [ ] Encore
-- [ ] Endure
-- [ ] Explosion
-- [ ] Extreme Speed
-- [ ] Faint Attack
-- [ ] False Swipe
-- [ ] Fire Blast
-- [ ] Fire Punch
-- [ ] Fire Spin
-- [ ] Fissure
-- [ ] Flail
-- [ ] Flame Wheel
-- [ ] Flamethrower
-- [ ] Flash
-- [ ] Fly
-- [x] ~Focus Energy~
-- [ ] Foresight
-- [ ] Frustration
-- [ ] Fury Attack
-- [ ] Fury Swipes
-- [ ] Future Sight
-- [ ] Giga Drain
-- [ ] Glare
-- [x] Growl -1
-- [x] Growth +1
-- [ ] Guillotine
-- [ ] Gust
-- [ ] Harden
-- [ ] Haze
-- [ ] Headbutt
-- [ ] Heal Bell
-- [ ] Hi Jump Kick
-- [ ] Hidden Power
-- [ ] Horn Attack
-- [ ] Horn Drill
-- [ ] Hydro Pump
-- [ ] Hyper Beam
-- [ ] Hyper Fang
-- [ ] Hypnosis
-- [ ] Ice Beam
-- [ ] Ice Punch
-- [ ] Icy Wind
-- [ ] Iron Tail
-- [ ] Jump Kick
-- [ ] Karate Chop
-- [ ] Kinesis
-- [ ] Leech Life
-- [ ] Leech Seed
-- [ ] Leer
-- [ ] Lick
-- [ ] Light Screen
-- [ ] Lock On
-- [ ] Lovely Kiss
-- [ ] Low Kick
-- [ ] Mach Punch
-- [ ] Magnitude
-- [ ] Mean Look
-- [ ] Meditate
-- [ ] Mega Drain
-- [ ] Mega Horn
-- [ ] Mega Kick
-- [ ] Mega Punch
-- [ ] Metal Claw
-- [ ] Metronome
-- [ ] Milk Drink
-- [ ] Mimic
-- [ ] Mind Reader
-- [ ] Minimize
-- [ ] Mirror Coat
-- [ ] Mirror Move
-- [ ] Mist
-- [ ] Moonlight
-- [ ] Morning Sun
-- [ ] Mud Slap
-- [ ] Night Shade
-- [ ] Nightmare
-- [ ] Octazooka
-- [ ] Outrage
-- [ ] Pain Split
-- [ ] Payday
-- [ ] Peck
-- [ ] Perish Song
-- [ ] Petal Dance
-- [ ] Pin Missile
-- [ ] Poison Gas
-- [ ] Poison Powder
-- [ ] Poison Sting
-- [ ] Pound
-- [ ] Powder Snow
-- [ ] Present
-- [ ] Psybeam
-- [ ] Psych Up
-- [ ] Psychic
-- [ ] Psywave
-- [ ] Pursuit
-- [ ] Quick Attack
-- [ ] Rage
-- [ ] Rain Dance
-- [ ] Rapid Spin
-- [ ] Razor Leaf
-- [ ] Razor Wind
-- [ ] Recover
-- [ ] Reflect
-- [ ] Rest
-- [ ] Return
-- [ ] Reversal
-- [ ] Roar
-- [ ] Rock Slide
-- [ ] Rock Smash
-- [ ] Rock Throw
-- [ ] Rolling Kick
-- [ ] Rollout
-- [ ] Sacred Fire
-- [ ] Safeguard
-- [ ] Sand Attack
-- [ ] Sandstorm
-- [ ] Scary Face
-- [ ] Scratch
-- [ ] Screech
-- [ ] Seismic Toss
-- [ ] Selfdestruct
-- [ ] Shadow Ball
-- [ ] Sharpen
-- [ ] Sing
-- [ ] Sketch
-- [ ] Skull Bash
-- [ ] Sky Attack
-- [ ] Slam
-- [ ] Slash
-- [ ] Sleep Powder
-- [ ] Sleep Talk
-- [ ] Sludge
-- [ ] Sludge Bomb
-- [ ] Smog
-- [ ] Smokescreen
-- [ ] Snore
-- [ ] Softboiled
-- [ ] Solar Beam
-- [ ] Sonicboom
-- [ ] Spark
-- [ ] Spider Web
-- [ ] Spike Cannon
-- [ ] Spikes
-- [ ] Spite
-- [ ] Splash
-- [ ] Spore
-- [ ] Steel Wing
-- [ ] Stomp
-- [ ] Strength
-- [ ] String Shot
-- [ ] Struggle
-- [ ] Stun Spore
-- [ ] Submission
-- [ ] Substitute
-- [ ] Sunny Day
-- [ ] Super Fang
-- [ ] Supersonic
-- [ ] Surf
-- [ ] Swagger
-- [ ] Sweet Kiss
-- [ ] Sweet Scent
-- [ ] Swift
-- [ ] Swords Dance
-- [ ] Synthesis
-- [ ] Tackle
-- [ ] Tail Whip
-- [ ] Take Down
-- [ ] Teleport
-- [ ] Thief
-- [ ] Thrash
-- [ ] Thunder
-- [ ] Thunder Punch
-- [ ] Thunderbolt
-- [ ] Thundershock
-- [ ] Thunderwave
-- [ ] Toxic
-- [ ] Transform
-- [ ] Tri Attack
-- [ ] Triple Kick
-- [ ] Twineedle
-- [ ] Twister
-- [ ] Vice Grip
-- [ ] Vine Whip
-- [ ] Vital Throw
-- [ ] Water Gun
-- [ ] Waterfall
-- [ ] Whirlpool
-- [ ] Whirlwind
-- [ ] Wing Attack
-- [ ] Withdraw
-- [ ] Wrap
-- [ ] Zap Cannon
-
 # Moveset notes for pokémon gen II
 This is a work in progress.
 For the latest version see https://github.com/cdn-lnk/pkmn-genII-moveset-guide
@@ -582,3 +330,255 @@ $$hp = damage$$
 
 * __HM slaves__: are pokemons common, easy to catch and available relatively early game which are only there to use HMs for exploration. See https://pokemondb.net/gold-silver/hms
 Personal recommendation: hoot-hoot (fly, flash), poliwag (surf, waterfall and whirlpool) and sandshrew (cut, rock smash, strenght). You may also consider headbutt
+
+# List
+
+- [ ] Absorb
+- [ ] Acid
+- [ ] Acid Armor +2
+- [ ] Aeroblast
+- [ ] Amnesia +2
+- [ ] Ancientpower
+- [ ] Attract
+- [ ] Aurora Beam
+- [ ] Barrage
+- [ ] Barrier +2
+- [ ] Baton Pass
+- [ ] Beat Up
+- [ ] Belly Drum +6
+- [ ] Bide
+- [ ] Bind
+- [ ] Bite
+- [ ] Blizzard
+- [ ] Body Slam
+- [ ] Bone Club
+- [ ] Bone Rush
+- [ ] Bonemerang
+- [ ] Bubble
+- [ ] Bubblebeam
+- [x] Charm -2
+- [ ] Clamp
+- [ ] Comet Chop
+- [ ] Comet Punch
+- [ ] Confuse Ray
+- [ ] Constrict
+- [ ] Conversion
+- [ ] Conversion 2
+- [ ] Cotton Spore
+- [ ] Counter
+- [ ] Crabhammer
+- [ ] Cross Chop
+- [ ] Crunch
+- [ ] Curse
+- [ ] Cut
+- [ ] Defend
+- [x] ~Defense Curl~ +1 (except rollout combo)
+- [ ] Destiny Bond
+- [ ] Detect
+- [ ] Dig
+- [ ] Disable
+- [ ] Dizzy Punch
+- [ ] Double Edge
+- [ ] Double Kick
+- [ ] Double Slap
+- [ ] Double Team
+- [ ] Dragon Rage
+- [ ] DragonBreath
+- [ ] Dream Eater
+- [ ] Drill Peck
+- [ ] Dynamic Punch
+- [ ] Earthquake
+- [ ] Egg Bomb
+- [ ] Ember
+- [ ] Encore
+- [ ] Endure
+- [ ] Explosion
+- [ ] Extreme Speed
+- [ ] Faint Attack
+- [ ] False Swipe
+- [ ] Fire Blast
+- [ ] Fire Punch
+- [ ] Fire Spin
+- [ ] Fissure
+- [ ] Flail
+- [ ] Flame Wheel
+- [ ] Flamethrower
+- [ ] Flash
+- [ ] Fly
+- [x] ~Focus Energy~
+- [ ] Foresight
+- [ ] Frustration
+- [ ] Fury Attack
+- [ ] Fury Swipes
+- [ ] Future Sight
+- [ ] Giga Drain
+- [ ] Glare
+- [x] Growl -1
+- [x] Growth +1
+- [ ] Guillotine
+- [ ] Gust
+- [ ] Harden
+- [ ] Haze
+- [ ] Headbutt
+- [ ] Heal Bell
+- [ ] Hi Jump Kick
+- [ ] Hidden Power
+- [ ] Horn Attack
+- [ ] Horn Drill
+- [ ] Hydro Pump
+- [ ] Hyper Beam
+- [ ] Hyper Fang
+- [ ] Hypnosis
+- [ ] Ice Beam
+- [ ] Ice Punch
+- [ ] Icy Wind
+- [ ] Iron Tail
+- [ ] Jump Kick
+- [ ] Karate Chop
+- [ ] Kinesis
+- [ ] Leech Life
+- [ ] Leech Seed
+- [ ] Leer
+- [ ] Lick
+- [ ] Light Screen
+- [ ] Lock On
+- [ ] Lovely Kiss
+- [ ] Low Kick
+- [ ] Mach Punch
+- [ ] Magnitude
+- [ ] Mean Look
+- [ ] Meditate
+- [ ] Mega Drain
+- [ ] Mega Horn
+- [ ] Mega Kick
+- [ ] Mega Punch
+- [ ] Metal Claw
+- [ ] Metronome
+- [ ] Milk Drink
+- [ ] Mimic
+- [ ] Mind Reader
+- [ ] Minimize
+- [ ] Mirror Coat
+- [ ] Mirror Move
+- [ ] Mist
+- [ ] Moonlight
+- [ ] Morning Sun
+- [ ] Mud Slap
+- [ ] Night Shade
+- [ ] Nightmare
+- [ ] Octazooka
+- [ ] Outrage
+- [ ] Pain Split
+- [ ] Payday
+- [ ] Peck
+- [ ] Perish Song
+- [ ] Petal Dance
+- [ ] Pin Missile
+- [ ] Poison Gas
+- [ ] Poison Powder
+- [ ] Poison Sting
+- [ ] Pound
+- [ ] Powder Snow
+- [ ] Present
+- [ ] Psybeam
+- [ ] Psych Up
+- [ ] Psychic
+- [ ] Psywave
+- [ ] Pursuit
+- [ ] Quick Attack
+- [ ] Rage
+- [ ] Rain Dance
+- [ ] Rapid Spin
+- [ ] Razor Leaf
+- [ ] Razor Wind
+- [ ] Recover
+- [ ] Reflect
+- [ ] Rest
+- [ ] Return
+- [ ] Reversal
+- [ ] Roar
+- [ ] Rock Slide
+- [ ] Rock Smash
+- [ ] Rock Throw
+- [ ] Rolling Kick
+- [ ] Rollout
+- [ ] Sacred Fire
+- [ ] Safeguard
+- [ ] Sand Attack
+- [ ] Sandstorm
+- [ ] Scary Face
+- [ ] Scratch
+- [ ] Screech
+- [ ] Seismic Toss
+- [ ] Selfdestruct
+- [ ] Shadow Ball
+- [ ] Sharpen
+- [ ] Sing
+- [ ] Sketch
+- [ ] Skull Bash
+- [ ] Sky Attack
+- [ ] Slam
+- [ ] Slash
+- [ ] Sleep Powder
+- [ ] Sleep Talk
+- [ ] Sludge
+- [ ] Sludge Bomb
+- [ ] Smog
+- [ ] Smokescreen
+- [ ] Snore
+- [ ] Softboiled
+- [ ] Solar Beam
+- [ ] Sonicboom
+- [ ] Spark
+- [ ] Spider Web
+- [ ] Spike Cannon
+- [ ] Spikes
+- [ ] Spite
+- [ ] Splash
+- [ ] Spore
+- [ ] Steel Wing
+- [ ] Stomp
+- [ ] Strength
+- [ ] String Shot
+- [ ] Struggle
+- [ ] Stun Spore
+- [ ] Submission
+- [ ] Substitute
+- [ ] Sunny Day
+- [ ] Super Fang
+- [ ] Supersonic
+- [ ] Surf
+- [ ] Swagger
+- [ ] Sweet Kiss
+- [ ] Sweet Scent
+- [ ] Swift
+- [ ] Swords Dance
+- [ ] Synthesis
+- [ ] Tackle
+- [ ] Tail Whip
+- [ ] Take Down
+- [ ] Teleport
+- [ ] Thief
+- [ ] Thrash
+- [ ] Thunder
+- [ ] Thunder Punch
+- [ ] Thunderbolt
+- [ ] Thundershock
+- [ ] Thunderwave
+- [ ] Toxic
+- [ ] Transform
+- [ ] Tri Attack
+- [ ] Triple Kick
+- [ ] Twineedle
+- [ ] Twister
+- [ ] Vice Grip
+- [ ] Vine Whip
+- [ ] Vital Throw
+- [ ] Water Gun
+- [ ] Waterfall
+- [ ] Whirlpool
+- [ ] Whirlwind
+- [ ] Wing Attack
+- [ ] Withdraw
+- [ ] Wrap
+- [ ] Zap Cannon
